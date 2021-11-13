@@ -5,7 +5,6 @@ interface IProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     size?: "small" | "medium" | "large";
     stretched?: boolean;
     disabled?: boolean;
-    onClick?: () => void;
 }
 declare const Button: React.FC<IProps>;
 export default Button;

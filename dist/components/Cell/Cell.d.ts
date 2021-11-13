@@ -5,7 +5,6 @@ interface IProps extends React.HTMLAttributes<HTMLDivElement> {
     after?: React.ReactNode;
     description?: React.ReactNode;
     disabled?: boolean;
-    onClick?: () => void;
 }
 declare const Cell: React.FC<IProps>;
 export default Cell;
