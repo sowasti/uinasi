@@ -1,0 +1,20 @@
+.FormItem{
+  padding: 12px;
+}
+
+.FormItem__top{
+  margin-bottom: 6px;
+  color: #626d7a;  
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: system-ui; 
+  font-size: 15px;
+}
+
+.FormItem__bottom{
+  margin-top: 6px;
+  color: #818c99; 
+  font-family: system-ui; 
+  font-size: 13px;
+}

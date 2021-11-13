@@ -1,0 +1,44 @@
+.Avatar {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: currentColor;
+  background-size: cover;
+  text-align: center;
+}
+
+/* .Avatar__children{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+} */
+
+.Avatar__children{
+  height: 100%;  
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+
+.Avatar__shadow {
+  box-shadow: inset 0 0 1px 0px #9c9c96;
+}
+
+.Avatar__default {
+  border-radius: 50%;
+}
+
+.Avatar__app {
+  border-radius: 10px;
+}
+
+.Avatar__image {
+  border-radius: 5px;
+}

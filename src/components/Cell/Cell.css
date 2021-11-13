@@ -1,0 +1,58 @@
+.Cell {
+  min-height: 45px;
+  padding: 3px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+  background: none;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.Cell:hover {
+  background: #f0f3f5a9;
+}
+
+.Cell__disabled:hover {
+  background: none;
+}
+
+.Cell__main {
+  max-width: 100%;
+  flex-grow: 1;
+  min-width: 0;
+  flex-shrink: initial;
+  overflow: hidden;
+}
+
+.Cell__children {
+  color: inherit;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 16px;
+  font-family: system-ui;
+}
+
+.Cell__description {
+  margin-top: 3px;
+  display: block;
+  color: #626d7adc;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 16px;
+  font-family: system-ui;
+}
+
+.Cell__before {
+  margin-right: 12px;
+}
+
+.Cell__after {
+  margin-left: 10px;
+  color: #818c99c2;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}

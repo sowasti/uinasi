@@ -1,0 +1,98 @@
+.Button {
+  max-width: 100%;
+  margin: 0;
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Button__small {
+  min-height: 30px;
+  padding: 0px 16px;
+}
+.Button__medium {
+  min-height: 35px;
+  padding: 0px 16px;
+  font-size: 15px;
+}
+.Button__large {
+  min-height: 40px;
+  padding: 0px 20px;
+  font-size: 16px;
+}
+
+.Button__primary {
+  background: #2d81e0;
+  color: #fff;
+}
+.Button__secondary {
+  background: #e3edf8;
+  color: #44505f;
+}
+.Button__tertiary {
+  background: none;
+  color: #2c4661;
+}
+.Button__commerce {
+  background: #4bb34b;
+  color: #fff;
+}
+.Button__destructive {
+  background: #db3636ef;
+  color: #fff;
+}
+.Button__outline {
+  background: none;
+  color: #2a5885;
+  border: 1px solid #2a5885;
+  box-shadow: inset 0 0 0 0.3px #2a5885;
+}
+.Button__outline__dark__theme {
+  background: none;
+  color: #fff;
+  border: 1px solid #fff;
+  box-shadow: inset 0 0 0 0.3px #fff;
+}
+.Button__primary__dark__theme {
+  background: #fff;
+  color: #2c2d2e;
+}
+.Button__tertiary__dark__theme {
+  background: inherit;
+  color: #fff;
+}
+
+.Button__tertiary:hover,
+.Button__outline:hover {
+  background: #ebe8e8fd;
+}
+.Button__primary:hover,
+.Button__commerce:hover,
+.Button__destructive:hover{
+  opacity: 0.9;
+}
+.Button__secondary:hover{
+  background: #dae8f7;
+}
+.Button__primary__dark__theme:hover{
+  background: rgb(243, 239, 239);
+}
+.Button__outline__dark__theme:hover,
+.Button__tertiary__dark__theme:hover{
+  opacity: 0.8;
+}
+
+.Button__stretched {
+  display: block;
+  width: 100%;
+  flex-grow: 1;
+  flex-basis: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.Button__disabled {
+  opacity: 0.4;
+}
