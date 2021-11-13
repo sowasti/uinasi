@@ -14,9 +14,6 @@ interface IProps extends React.HTMLAttributes<HTMLDivElement> {
 
   /** Убирает анимацию наведения при disabled=true */
   disabled?: boolean
-
-  /** Обработчик события клика */
-  onClick?: () => void;
 }
 
 const Cell: React.FC<IProps> = ({

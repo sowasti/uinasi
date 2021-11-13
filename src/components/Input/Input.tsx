@@ -8,9 +8,6 @@ interface IProps extends React.InputHTMLAttributes<HTMLInputElement> {
 
   /** Подсвечивает инпут при не валидном вводе если status="error" */
   status?: "valid" | "error"
-
-  /** Обработчик события ввода */
-  onChange?: () => void
 }
 
 const Input: React.FC<IProps> = ({

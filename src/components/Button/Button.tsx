@@ -21,9 +21,6 @@ interface IProps extends React.ButtonHTMLAttributes<HTMLButtonElement>{
 
   /** Стиль отключенной кнопки */
   disabled?: boolean
-
-  /** Обработчик события клика */
-  onClick?: () => void
 }
 
 const Button: React.FC<IProps> = ({
